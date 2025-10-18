@@ -1,0 +1,92 @@
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 10px;
+  background-color: #AFEEEE;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color:#FFA500;
+  font-weight: 600;
+  transition: 0.3s;
+  padding: 8px 15px;
+  border-radius: 8px;
+}
+nav ul li a:hover {
+  background: #f8d210;
+  color: black;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #fff8f0;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  text-align: center;
+  background-color: #c49b66;
+  color: white;
+  padding: 15px 0;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+}
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  padding: 20px 30px;
+}
+.section {
+  margin-bottom: 25px;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 15px;
+}
+.section h2 {
+  color: #c49b66;
+  margin-bottom: 10px;
+}
+label {
+  font-weight: 500;
+  display: inline-block;
+  width: 140px;
+}
+input {
+  padding: 8px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  width: 100px;
+}
+button {
+  background-color: #c49b66;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 8px 20px;
+  margin-top: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+button:hover {
+  background-color: #a47d4d;
+}
+.result {
+  margin-top: 10px;
+  font-weight: 600;
+  color: #444;
+}
+.total-bill {
+  text-align: center;
+  font-size: 1.4em;
+  color: #c49b66;
+  font-weight: 700;
+  margin-top: 30px;
+}
+
